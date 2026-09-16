@@ -29,7 +29,9 @@ from migrations.utils import get_schema
 
 # revision identifiers, used by Alembic.
 revision: str = "5c4bd2602418"
-down_revision: str | None = "e4eba9cfaa6f"
+down_revision: str | None = "a7c3e9f1b2d4"  # rebased onto v3.2.0: upstream's
+# add_document_sources_table also descends from e4eba9cfaa6f, which would leave
+# Alembic with two heads. Chain after it instead.
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 
