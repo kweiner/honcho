@@ -25,7 +25,7 @@ from migrations.utils import get_schema, index_exists
 
 # revision identifiers, used by Alembic.
 revision: str = "b8d2f4a6c9e1"
-down_revision: str | None = "a7c3e9f1b2d4"
+down_revision: str | None = "5c4bd2602418"  # kens-fork: chain after 1536-dim migration (already deployed)
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

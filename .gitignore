@@ -196,6 +196,7 @@ grafana-data/
 
 # Claude Code addon stuff
 .omc
+secrets/
 
 # Sandbox real-provider credentials (see sandbox/real.env.example)
 sandbox/real.env
